@@ -8,7 +8,7 @@
         "build": "chmod -R 777 server/",
         "lint": "eslint . --ext .ts",
         "format": "prettier --write .",
-        "start": "ts-node src --start"
+        "start": "chmod -R 777 server/ && ts-node src --start"
     },
     "keywords": [
         "terraria",
