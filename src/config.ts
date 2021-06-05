@@ -5,7 +5,7 @@ dotenv.config();
 
 const CONFIG: IConfig = {
     SERVER_URL:
-        "https://terraria.org/system/dedicated_servers/archives/000/000/045/original/terraria-server-1423.zip", // Terraria official server 1.4.1.2
+        "https://terraria.org/system/dedicated_servers/archives/000/000/046/original/terraria-server-1423.zip", // Terraria official server 1.4.1.2
     BUILD_DIRECTORY: "./server",
     FILE_NAME: "server.zip",
     PORT: parseInt(process.env.PORT as string) || 3000,
