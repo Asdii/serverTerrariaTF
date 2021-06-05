@@ -19,7 +19,7 @@ const CONFIG: IConfig = {
         MAX_PLAYERS: 8,
         LANGUAGE: "en-US",
         DIFFICULTY: 1,
-        WORLD_SIZE: 3,
+        WORLD_SIZE: 2,
     },
 };
 
