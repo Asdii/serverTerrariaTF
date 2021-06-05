@@ -1,0 +1,16 @@
+world=/mnt/c/Users/Gnar/terrariaHerokuServer/terraria-server-heroku/server/worlds/Ceayaver.wld
+worldpath=/mnt/c/Users/Gnar/terrariaHerokuServer/terraria-server-heroku/server/worlds
+banlist=banlist.txt
+motd=Bienvenido a TeamFood uwu
+port=8080
+password=
+maxplayers=8
+language=en-US
+worldname=Ceayaver
+diffculty=1
+autocreate=2
+worldrollbackstokeep=5
+npcstream=60
+priority=1
+secure=1
+upnp=1
