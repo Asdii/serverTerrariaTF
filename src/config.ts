@@ -23,4 +23,4 @@ const CONFIG: IConfig = {
     },
 };
 
-export default CONFIG;
+export default CONFIG; 
