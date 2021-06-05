@@ -8,7 +8,7 @@
         "build": "chmod -R 777 server/",
         "lint": "eslint . --ext .ts",
         "format": "prettier --write .",
-        "start": "chmod -R 777 server/ && chmod -R 777 ./ && sh -c \"ts-node src --start\" && \"node_modules/ngrok/bin/ngrok.exe\" http 8080"
+        "start": "chmod -R 777 server/ && chmod -R 777 ./ && apt install screen && screen -d -m ts-node src --start && \"node_modules/ngrok/bin/ngrok.exe\" http 8080"
     },
     "keywords": [
         "terraria",
