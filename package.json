@@ -8,7 +8,7 @@
         "build": "chmod -R 777 server/",
         "lint": "eslint . --ext .ts",
         "format": "prettier --write .",
-        "start": "chmod -R 777 server/ && chmod -R 777 ./ && ts-node src --start"
+        "start": "chmod -R 777 server/ && chmod -R 777 ./ && sh -c \"ts-node src --start\" && \"node_modules/ngrok/bin/ngrok.exe\" http 8080"
     },
     "keywords": [
         "terraria",
@@ -34,6 +34,7 @@
         "eslint": "^7.7.0",
         "express": "^4.17.1",
         "ip": "^1.1.5",
+        "ngrok": "^4.0.1",
         "prettier": "^2.0.5",
         "request": "^2.88.2",
         "rimraf": "^3.0.2",
