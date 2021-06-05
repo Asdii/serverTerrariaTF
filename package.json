@@ -5,10 +5,10 @@
     "version": "1.0.0",
     "description": "Run terraria servers on NodeJS",
     "scripts": {
-        "build": "chmod -R 777 server/",
+        "build": "",
         "lint": "eslint . --ext .ts",
         "format": "prettier --write .",
-        "start": "chmod -R 777 server/ && ts-node src --start"
+        "start": "ts-node src --start"
     },
     "keywords": [
         "terraria",
