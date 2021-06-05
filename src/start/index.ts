@@ -9,7 +9,7 @@ import ip from "ip";
 export default function (CONFIG: IConfig): ChildProcess | void {
     if (
         existsSync(
-            `${CONFIG.BUILD_DIRECTORY}/1412/Linux/TerrariaServer.bin.x86_64`,
+            `${CONFIG.BUILD_DIRECTORY}/1423/Linux/TerrariaServer.bin.x86_64`,
         )
     ) {
         console.info(
@@ -41,7 +41,7 @@ export default function (CONFIG: IConfig): ChildProcess | void {
         });
 
         return spawn(
-            "1412/Linux/TerrariaServer.bin.x86_64",
+            "1423/Linux/TerrariaServer.bin.x86_64",
             ["-config", "serverconfig.txt"],
             {
                 stdio: "inherit",
